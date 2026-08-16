@@ -3,6 +3,7 @@ export type TeamIcon =
   | "code"
   | "content"
   | "design"
+  | "mic"
   | "outreach"
   | "people";
 
@@ -25,7 +26,7 @@ export const community = {
   name: "GFG CBCU",
   university: "Chandigarh University",
   badge: "Community Hiring 2026",
-  eyebrow: "GFG CUSB Community",
+  eyebrow: "GFG CBCU Community",
   headline: "We're Hiring!",
   subheadline:
     "Join our vibrant community of developers, creators, leaders and innovators. Build real impact. Learn together. Grow together.",
@@ -78,6 +79,15 @@ export const hiringTeams: HiringTeam[] = [
     icon: "calendar",
     accent: "#6c7dff",
     accentSoft: "rgba(108, 125, 255, 0.16)",
+  },
+  {
+    title: "Anchors & Hosts",
+    description:
+      "Host events, moderate sessions, anchor live stages and energize our community.",
+    href: "https://forms.gle/wT4tMJQNrx9rYQvFA",
+    icon: "mic",
+    accent: "#ff7b39",
+    accentSoft: "rgba(255, 123, 57, 0.16)",
   },
 ];
 

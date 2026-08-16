@@ -1,11 +1,11 @@
-import { ArrowRight, Sparkles, Zap } from "lucide-react";
+import { Sparkles, Zap } from "lucide-react";
 import communityTeamImage from "./assets/community-team.png";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { HiringCard } from "./components/HiringCard";
 import { ProfileHero } from "./components/ProfileHero";
 import { SocialLinks } from "./components/SocialLinks";
-import { community, hiringTeams } from "./data/hiring";
+import { hiringTeams } from "./data/hiring";
 
 export default function App() {
   return (
@@ -47,13 +47,9 @@ export default function App() {
               Be a Part of Something <span>Bigger!</span>
             </h2>
             <p>
-              GFG CUSB Community is more than a team. It's a family of passionate individuals
+              GFG CBCU Community is more than a team. It's a family of passionate individuals
               building the future together.
             </p>
-            <a className="cta-button apply-button" href={community.formHref} target="_blank" rel="noreferrer">
-              <span>Apply Now</span>
-              <ArrowRight size={20} aria-hidden="true" />
-            </a>
           </div>
           <p className="cta-note">Your journey starts here!</p>
         </section>
@@ -63,7 +59,7 @@ export default function App() {
             <Zap size={28} fill="currentColor" />
           </span>
           <p>
-            Applications are reviewed by the GFG CUSB team. Make sure you submit the{" "}
+            Applications are reviewed by the GFG CBCU team. Make sure you submit the{" "}
             <strong>correct form</strong> for the role you're applying for.
           </p>
         </aside>

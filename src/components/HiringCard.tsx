@@ -6,6 +6,7 @@ import {
   ExternalLink,
   Handshake,
   Megaphone,
+  Mic,
   Paintbrush,
   UsersRound,
 } from "lucide-react";
@@ -16,6 +17,7 @@ const iconMap: Record<TeamIcon, typeof UsersRound> = {
   code: Code2,
   content: Megaphone,
   design: Paintbrush,
+  mic: Mic,
   outreach: Handshake,
   people: UsersRound,
 };
