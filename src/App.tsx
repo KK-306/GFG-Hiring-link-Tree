@@ -41,7 +41,7 @@ export default function App() {
         </section>
 
         <section className="cta-card" aria-labelledby="cta-heading">
-          <img src={communityTeamImage} alt="" className="cta-image" />
+          <img src={communityTeamImage} alt="GFG CBCU Community Team" className="cta-image" />
           <div className="cta-copy">
             <h2 id="cta-heading">
               Be a Part of Something <span>Bigger!</span>
@@ -50,10 +50,10 @@ export default function App() {
               GFG CUSB Community is more than a team. It's a family of passionate individuals
               building the future together.
             </p>
-            {/* <a className="cta-button" href={community.formHref} target="_blank" rel="noreferrer">
+            <a className="cta-button apply-button" href={community.formHref} target="_blank" rel="noreferrer">
               <span>Apply Now</span>
               <ArrowRight size={20} aria-hidden="true" />
-            </a> */}
+            </a>
           </div>
           <p className="cta-note">Your journey starts here!</p>
         </section>
